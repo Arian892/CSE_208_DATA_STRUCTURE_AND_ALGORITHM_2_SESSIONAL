@@ -172,6 +172,7 @@ int main()
     }
     int source, sink;
     cin >> source >> sink;
+    cout << "hello " << endl; 
 
     graph.foid_fulkerson(source, sink);
 
